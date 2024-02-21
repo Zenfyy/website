@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(51, 50, 50);
+    color: #df3079;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.floating-box {
+    position: relative;
+    width: 1000px;
+    height: 500px;
+    background-color: #0d0d0d;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    display: flex;
+    justify-content: flex-start; /* Align children to the start horizontally */
+    align-items: flex-start; /* Align children to the start vertically */
+    text-align: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#ip-address {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: #e9950c;
+}
